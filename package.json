@@ -1,0 +1,21 @@
+{
+    "name": "tranquil-2020",
+    "displayName": "tranquil-2020",
+    "description": "Simple Elegant Purple based theme. Inspired by synthwave84 and default dark for tokens",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "tranquil 2020",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tranquil 2020-color-theme.json"
+            }
+        ]
+    }
+}
