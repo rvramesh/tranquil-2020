@@ -118,11 +118,11 @@
 		"sideBarSectionHeader.border": "#cccccc33",
 		"sideBarSectionHeader.foreground": "#ffffffca",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"statusBar.background": "#241b2f",
+		"statusBar.background": "#2C001E",
 		"statusBar.debuggingBackground": "#f97e72",
 		"statusBar.debuggingForeground": "#08080f",
-		"statusBar.foreground": "#ffffff80",
-		"statusBar.noFolderBackground": "#241b2f",
+		"statusBar.foreground": "#eeeeee",
+		"statusBar.noFolderBackground": "#2C001E",
 		"statusBarItem.prominentBackground": "#2a2139",
 		"statusBarItem.prominentHoverBackground": "#34294f",
 		"statusBarItem.remoteBackground": "#16825d",
@@ -465,7 +465,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -582,7 +582,7 @@
 		{
 			"scope": "meta.structure.dictionary.key.python",
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -668,7 +668,7 @@
 				"source.coffee.embedded"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -724,7 +724,7 @@
 		{
 			"scope": "support.function.git-rebase",
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -835,7 +835,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -852,7 +852,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#03edf9"
 			}
 		},
 		{
