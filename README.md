@@ -1,13 +1,6 @@
-# README
-## This is the README for your extension "tranquil-2020"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Tranquil 2020 - VS Code theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+This color scheme is influenced by (SynthWave 84)[https://github.com/robb0wen/synthwave-vscode]
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Token Colors from default Visual Studio Dark+
 
-**Enjoy!**
