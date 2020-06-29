@@ -4,6 +4,7 @@
     "description": "Simple Elegant Purple based theme. Inspired by synthwave84 and default dark for tokens",
     "author": "Ramesh Vijayaraghavan",
     "publisher": "rvramesh",
+    "license": "MIT",
     "version": "0.0.1",
     "repository": {
         "type": "git",
@@ -33,6 +34,6 @@
         "deploy": "vsce publish -p"
     },
     "devDependencies": {
-        "vsce": "~1.74.0"
+        "vsce": "^1.77.0"
     }
 }
