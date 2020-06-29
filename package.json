@@ -2,12 +2,22 @@
     "name": "tranquil-2020",
     "displayName": "tranquil-2020",
     "description": "Simple Elegant Purple based theme. Inspired by synthwave84 and default dark for tokens",
+    "author": "Ramesh Vijayaraghavan",
+    "publisher": "rvramesh",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rvramesh/tranquil-2020"
+    },
     "engines": {
         "vscode": "^1.46.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "purple",
+        "2020"
     ],
     "contributes": {
         "themes": [
@@ -17,5 +27,12 @@
                 "path": "./themes/tranquil 2020-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "package": "vsce package",
+        "deploy": "vsce publish -p"
+    },
+    "devDependencies": {
+        "vsce": "~1.74.0"
     }
 }

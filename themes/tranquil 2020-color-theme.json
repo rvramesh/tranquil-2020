@@ -198,7 +198,7 @@
 		//"debugView.exceptionLabelForeground": "#ffffff",
 		//"debugView.stateLabelBackground": "#88888844",
 		//"debugView.stateLabelForeground": "#ffffff",
-		//"debugView.valueChangedHighlight": "#569cd6",
+		//"debugView.valueChangedHighlight": "#03edf9",
 		//"descriptionForeground": "#ffffffb3",
 		//"diffEditor.diagonalFill": "#cccccc33",
 		//"dropdown.border": "#232530",
@@ -429,7 +429,7 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -453,7 +453,7 @@
 		{
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -499,14 +499,14 @@
 		{
 			"scope": "markup.bold",
 			"settings": {
-				"foreground": "#569CD6",
+				"foreground": "#03edf9",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#569CD6",
+				"foreground": "#03edf9",
 				"fontStyle": "bold"
 			}
 		},
@@ -531,7 +531,7 @@
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -564,7 +564,7 @@
 				"entity.name.function.preprocessor"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -588,19 +588,19 @@
 		{
 			"scope": "meta.diff.header",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -609,7 +609,7 @@
 				"keyword.operator.noexcept"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -647,7 +647,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -674,13 +674,13 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -703,7 +703,7 @@
 				"keyword.operator.wordlike"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -718,7 +718,7 @@
 				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -746,7 +746,7 @@
 		{
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
@@ -912,7 +912,7 @@
 		{
 			"scope": "constant.character",
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#03edf9"
 			}
 		},
 		{
