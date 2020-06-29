@@ -31,7 +31,7 @@
     },
     "scripts": {
         "package": "vsce package",
-        "deploy": "vsce publish"
+        "deploy": "vsce publish minor"
     },
     "devDependencies": {
         "vsce": "^1.77.0"
