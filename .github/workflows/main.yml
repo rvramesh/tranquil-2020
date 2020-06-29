@@ -48,13 +48,6 @@ jobs:
         
     - name: clean install dependencies
       run: npm ci
-      
-    - name: update metadata in package.json
-      uses: onlyutkarsh/patch-files-action@v1.0.1
-      with:
-        files: '${{github.workspace}}/package.json'
-        patch-syntax: |
-          = /version => "${{ steps.gitversion.outputs.semVer }}"
     
     - name: compile and create vsix
       run: npm run package
@@ -66,8 +59,8 @@ jobs:
     - name: upload vsix as artifact
       uses: actions/upload-artifact@v1
       with:
-        name: tranquil-2020-${{steps.gitversion.outputs.semVer}}.vsix
-        path: ${{github.workspace}}/tranquil-2020-${{steps.gitversion.outputs.semVer}}.vsix
+        name: tranquil-2020-${{github.run_id}}.vsix
+        path: ${{github.workspace}}/tranquil-2020-${{0.1.0}}.vsix
       
     - name: publish to marketplace
       if: github.ref == 'refs/heads/master'
@@ -75,11 +68,4 @@ jobs:
       env:
         VSCE_PAT: ${{ secrets.VSCE_PAT }}
       
-    - name: create a release
-      if: github.ref == 'refs/heads/master'
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      with:
-        tag_name: v${{ steps.gitversion.outputs.semVer }}
-        release_name: v${{ steps.gitversion.outputs.semVer }}    
+   
