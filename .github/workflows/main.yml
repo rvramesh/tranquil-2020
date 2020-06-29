@@ -60,7 +60,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: tranquil-2020-${{github.run_id}}.vsix
-        path: ${{github.workspace}}/tranquil-2020-${{0.1.0}}.vsix
+        path: ${{github.workspace}}/tranquil-2020-0.1.0.vsix
       
     - name: publish to marketplace
       if: github.ref == 'refs/heads/master'
