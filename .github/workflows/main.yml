@@ -73,7 +73,7 @@ jobs:
       if: github.ref == 'refs/heads/master'
       run: npm run deploy
       env:
-        VSCE_PAT:${{ env.PAT }}
+        VSCE_PAT: $
       
     - name: create a release
       if: github.ref == 'refs/heads/master'
