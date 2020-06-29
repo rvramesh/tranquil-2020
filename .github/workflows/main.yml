@@ -66,7 +66,7 @@ jobs:
     - name: upload vsix as artifact
       uses: actions/upload-artifact@v1
       with:
-        name: vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
+        name: tranquil-2020-${{steps.gitversion.outputs.semVer}}.vsix
         path: ${{github.workspace}}/tranquil-2020-${{steps.gitversion.outputs.semVer}}.vsix
       
     - name: publish to marketplace
