@@ -79,7 +79,7 @@ jobs:
       with:
         files: '${{github.workspace}}/package.json'
         patch-syntax: |
-          = /version => "${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs..minor}}.${{steps.gitversion.outputs.BuildMetaData}}"
+          = /version => "${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs.minor}}.${{steps.gitversion.outputs.BuildMetaData}}"
     
     - name: compile and create vsix
       run: npm run package
@@ -91,8 +91,8 @@ jobs:
     - name: upload vsix as artifact
       uses: actions/upload-artifact@v1
       with:
-        name: tranquil-2020-${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs..minor}}.${{steps.gitversion.outputs.BuildMetaData}}.vsix
-        path: ${{github.workspace}}/tranquil-2020-${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs..minor}}.${{steps.gitversion.outputs.BuildMetaData}}.vsix
+        name: tranquil-2020-${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs.minor}}.${{steps.gitversion.outputs.BuildMetaData}}.vsix
+        path: ${{github.workspace}}/tranquil-2020-${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs.minor}}.${{steps.gitversion.outputs.BuildMetaData}}.vsix
       
     - name: publish to marketplace
       if: github.ref == 'refs/heads/master'
@@ -106,5 +106,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
       with:
-        tag_name: v${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs..minor}}.${{steps.gitversion.outputs.BuildMetaData}}
-        release_name: v${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs..minor}}.${{steps.gitversion.outputs.BuildMetaData}}
+        tag_name: v${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs.minor}}.${{steps.gitversion.outputs.BuildMetaData}}
+        release_name: v${{ steps.gitversion.outputs.major }}.${{steps.gitversion.outputs.minor}}.${{steps.gitversion.outputs.BuildMetaData}}
