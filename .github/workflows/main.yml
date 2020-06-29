@@ -66,14 +66,14 @@ jobs:
     - name: upload vsix as artifact
       uses: actions/upload-artifact@v1
       with:
-        name: vsix-viewer-${{steps.gitversion.outputs.semVer}}.vsix
+        name: tranquil-2020-${{steps.gitversion.outputs.semVer}}.vsix
         path: ${{github.workspace}}/tranquil-2020-${{steps.gitversion.outputs.semVer}}.vsix
       
     - name: publish to marketplace
       if: github.ref == 'refs/heads/master'
       run: npm run deploy
       env:
-        VSCE_PAT: $
+        VSCE_PAT: ${{ secrets.VSCE_PAT }}
       
     - name: create a release
       if: github.ref == 'refs/heads/master'
